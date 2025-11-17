@@ -1,4 +1,4 @@
-#include <stdio.h>
+п»ї#include <stdio.h>
 #include <locale.h>
 #define N 10
 int main()
@@ -7,7 +7,7 @@ int main()
 	double masX[N];
 	setlocale(LC_ALL, "RUS");
 
-	printf("Введите %d чисел через Enter:\n", N);
+	printf("Р’РІРµРґРёС‚Рµ %d С‡РёСЃРµР» С‡РµСЂРµР· Enter:\n", N);
 	for (int i = 0; i < N; i++) {
 		scanf("%lf", &masX[i]);
 	}
@@ -27,6 +27,6 @@ int main()
 		}
 	}
 
-	printf("Кол-во элементов массива между между первым и последним нулевыми элементами = %d\n", cnt);
+	printf("РљРѕР»-РІРѕ СЌР»РµРјРµРЅС‚РѕРІ РјР°СЃСЃРёРІР° РјРµР¶РґСѓ РјРµР¶РґСѓ РїРµСЂРІС‹Рј Рё РїРѕСЃР»РµРґРЅРёРј РЅСѓР»РµРІС‹РјРё СЌР»РµРјРµРЅС‚Р°РјРё = %d\n", cnt);
 	system("pause");
 }
